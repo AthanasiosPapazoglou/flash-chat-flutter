@@ -72,6 +72,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
               RoundedButton(
                   colour: Colors.blueAccent,
                   buttonTitle: 'Register',
+                  //CUWEAP is a prototypal auth_firebase and it is used to reguster an email/password as a valid credential for future logins 
                   buttonFunctionality: () async {
                     setState(() {
                       showSpinner = true;

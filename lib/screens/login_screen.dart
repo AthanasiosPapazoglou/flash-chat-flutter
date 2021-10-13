@@ -68,6 +68,7 @@ class _LoginScreenState extends State<LoginScreen> {
               RoundedButton(
                 colour: Colors.lightBlueAccent, 
                 buttonTitle: 'Log In',
+            //SIWEAP is a prototypal auth_firebase and it is used to Verify via email if the credentials are correct (therefore access is granted) 
                 buttonFunctionality: () async {
                   setState(() {
                       showSpinner = true;

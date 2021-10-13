@@ -7,6 +7,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+//Widget Binding , Firebase Initialisation & running the App
 Future<void> main() async {
   print('runs main');
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,6 +15,7 @@ Future<void> main() async {
   runApp(FlashChat());
 }
 
+//Maestro primary Widget, contains every screen's route ID, initialises App on WelcomeScreen
 class FlashChat extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
