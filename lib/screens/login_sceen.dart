@@ -46,7 +46,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 value == null ? _mail = " " : _mail = value;
               },
               decoration: const InputDecoration(
-                label: Text("E-mail"),
+                //label: Text("E-mail"),
                 icon: Icon(Icons.person),
               ),
             ),
@@ -60,7 +60,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 _tryLogin();
               },
               decoration: const InputDecoration(
-                label: Text("Password"),
+                //label: Text("Password"),
                 icon: Icon(Icons.password),
               ),
             ),
